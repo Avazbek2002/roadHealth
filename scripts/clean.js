@@ -4,4 +4,7 @@ const upath = require('upath');
 const destPath = upath.resolve(upath.dirname(__filename), '../public');
 
 sh.rm('-rf', `${destPath}/*`)
+if (!sh.test('-e', destPath)) {
+    sh.mkdir('-p', destPath);
+}
 
