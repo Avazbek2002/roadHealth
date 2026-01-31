@@ -1,0 +1,253 @@
+doctype html
+html(lang='uz')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='RoadHealth AI - Yo\'llarni raqamlashtirish')
+        meta(name='author', content='RoadHealth AI')
+
+        title RoadHealth AI | Investorlar uchun
+
+        link(rel='icon', type='image/x-icon', href='../assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i,900,900i' rel='stylesheet')
+
+        link(href='https://unpkg.com/aos@2.3.1/dist/aos.css', rel='stylesheet')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='../css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
+            .container.px-5
+                a.navbar-brand(href='#page-top') RoadHealth AI
+                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.ms-auto
+                        li.nav-item
+                            a.nav-link(href='#market') Bozor
+                        li.nav-item
+                            a.nav-link(href='#solution1') Yechim
+                        li.nav-item
+                            a.nav-link(href='#vision') Kelajak
+                        li.nav-item
+                            a.nav-link(href='#team') Jamoa
+                        li.nav-item.dropdown
+                            a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-bs-toggle='dropdown', aria-expanded='false') 🇺🇿 Uz
+                            ul.dropdown-menu.dropdown-menu-end(aria-labelledby='navbarDropdown')
+                                li
+                                    a.dropdown-item(href='/') 🇬🇧 English
+                                li
+                                    a.dropdown-item(href='/ru/') 🇷🇺 Русский
+
+        // Header
+        header.masthead.text-center.text-white
+            // Video Background
+            .video-background
+                video(playsinline='playsinline', autoplay='autoplay', muted='muted', loop='loop')
+                    source(src='../assets/video/bg.mp4', type='video/mp4')
+                .overlay
+            .masthead-content
+                .container.px-5
+                    h1.masthead-heading.mb-0(data-aos="fade-up") Dunyodagi so'nggi analog aktivni raqamlashtirish: Yo'l.
+                    h2.masthead-subheading.mb-0(data-aos="fade-up" data-aos-delay="200") RoadHealth AI bugungi kunda qurilish chiqindilarini 15% ga qisqartiradi va ertangi kun avtonom infratuzilma xaritalarini yaratadi.
+                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#contact' data-aos="fade-up" data-aos-delay="400") Investorlar uchun taqdimot
+            // Background is handled in CSS
+
+        // Market Failure Section
+        section#market
+            .container.px-5.py-5
+                .row.gx-5.align-items-center
+                    .col-lg-6.order-lg-2
+                        .p-5(data-aos="fade-left")
+                            img.img-fluid.rounded-3.shadow-lg(src='../assets/img/market_failure_1769881145116.png', alt='Market Failure')
+                    .col-lg-6.order-lg-1
+                        .p-5(data-aos="fade-right")
+                            .section-heading
+                                h2 Bozor muammosi: 
+                                    span Ko'r-ko'rona ishlash
+                            p.lead.text-muted Yo'l quruvchilari past marjada (10-20%) ishlaydi. Ular materiallarni ortiqcha buyurtma qilish, qayta ishlash va to'lovlarni kechikishi sababli katta foyda yo'qotadilar.
+                            .alert.alert-warning.mt-3
+                                i.fas.fa-exclamation-triangle.me-2
+                                strong Imkoniyat: 
+                                | 50 milliard dollarlik global sanoat taxminlarga asoslangan. Biz aniqlik keltiramiz.
+
+        // Our Solution Header
+        section#solution-header.py-5
+            .container.px-5.text-center
+                h2.display-4 Bizning yechim
+                p.lead.text-muted Biz taxminlarni sub-santimetr aniqlik bilan almashtiramiz.
+
+        // Solution Suite Section - Slide 1: Precision Planning
+        section#solution1
+            .container.px-5
+                .row.gx-5.align-items-center
+                    .col-lg-6.order-lg-2
+                        .p-5(data-aos="fade-left")
+                            img.img-fluid.rounded-circle(src='../assets/img/solution_planning_1769881159394.png', alt='Precision Planning')
+                    .col-lg-6.order-lg-1
+                        .p-5(data-aos="fade-right")
+                            h2.display-4 Aniq rejalashtirish
+                            p.lead Quruvchilar hajmni taxmin qilishadi, bu esa isrofga olib keladi. Biz sirtni sub-santimetr aniqlikda hisoblash uchun skanerlaymiz.
+                            .alert.alert-success.mt-3
+                                strong ROI: 
+                                | Xarid xarajatlarini darhol kamaytirish.
+
+        // Solution Suite Section - Slide 2: Real-Time Intervention
+        section#solution2
+            .container.px-5
+                .row.gx-5.align-items-center
+                    .col-lg-6
+                        .p-5(data-aos="fade-right")
+                            img.img-fluid.rounded-circle(src='../assets/img/solution_intervention_1769881173831.png', alt='Real-Time Intervention')
+                    .col-lg-6
+                        .p-5(data-aos="fade-left")
+                            h2.display-4 Real vaqtda aralashuv
+                            p.lead Yashirin yoriqlar qimmat yuqori qatlamni buzadi. Biz nuqsonlarni kech bo'lishidan oldin asosiy qatlamda topamiz.
+                            .alert.alert-success.mt-3
+                                strong ROI: 
+                                | $50 lik tuzatish $5,000 lik buzish ishlarining oldini oladi.
+
+        // Solution Suite Section - Slide 3: Instant Certification
+        section#solution3
+            .container.px-5
+                .row.gx-5.align-items-center
+                    .col-lg-6.order-lg-2
+                        .p-5(data-aos="fade-left")
+                            img.img-fluid.rounded-circle(src='../assets/img/solution_certification_1769881187178.png', alt='Instant Certification')
+                    .col-lg-6.order-lg-1
+                        .p-5(data-aos="fade-right")
+                            h2.display-4 Tezkor sertifikatlash
+                            p.lead Pul mablag'lari (shartnomaning 10%) haftalab muzlatib qo'yiladi. Biz sifat hisobotlarini bir zumda avtomatlashtiramiz.
+                            .alert.alert-success.mt-3
+                                strong ROI: 
+                                | To'lovlarni olishni 14+ kunga tezlashtiradi.
+
+        // Technology Section
+        section#technology
+            .container.px-5.py-5
+                .row.gx-5.align-items-center
+                    .col-lg-6
+                        .p-5(data-aos="fade-right")
+                            .row
+                                .col-12.mb-3
+                                    img.img-fluid.rounded-3.shadow-lg(src='../assets/img/pointcloud_1.png', alt='LiDAR Point Cloud 1')
+                                .col-12
+                                    img.img-fluid.rounded-3.shadow-lg(src='../assets/img/pointcloud_2.png', alt='LiDAR Point Cloud 2')
+                    .col-lg-6
+                        .p-5(data-aos="fade-left")
+                            h2.display-4 Bizning texnologiyamiz
+                            p.lead Biz to'liq raqamli egizakni yaratish uchun bir nechta ma'lumotlar oqimlarini birlashtiramiz.
+                            ul.list-unstyled.mt-4
+                                li.mb-3
+                                    i.fas.fa-satellite-dish.text-warning.me-2
+                                    strong Multi-Sensor Fusion: 
+                                    | Yuqori zichlikdagi LiDAR, 4K Video va RTK-GPS ma'lumotlarini integratsiya qilish.
+                                li.mb-3
+                                    i.fas.fa-brain.text-warning.me-2
+                                    strong AI bilan tahlil: 
+                                    | Bizning maxsus kompyuter ko'rish algoritmlarimiz yoriqlar, chuqurchalar va g'ildirak izlarini avtomatik ravishda aniqlaydi.
+
+        // Business Model
+        section#business.py-5
+            .container.px-5
+                .row.gx-5.align-items-center
+                    .col-lg-12
+                         .p-5.text-center(data-aos="zoom-in")
+                            h2.mb-4 Biznes model: "Land & Expand"
+                            .row.justify-content-center
+                                .col-md-5
+                                    .card.bg-dark.border-secondary.mb-3
+                                        .card-body
+                                            h4.text-warning 1-bosqich: Xizmat ko'rsatish byurosi
+                                            p Hozirda
+                                            p.small Biz texnologiyani boshqaramiz. Yuqori marja, ishonch, ma'lumotlarni yig'ish.
+                                .col-md-5
+                                    .card.bg-dark.border-secondary.mb-3
+                                        .card-body
+                                            h4.text-warning 2-bosqich: Hardware-SaaS
+                                            p Keyingi 18 oy
+                                            p.small Pudratchilarga LiDAR/Vision to'plamlarini oyiga $500 ga ijaraga berish. Doimiy daromad.
+
+        // Vision Section
+        section#vision
+            .container.px-5.py-5
+                .row.gx-5.align-items-center
+                    .col-lg-6
+                        .p-5(data-aos="fade-right")
+                            img.img-fluid.rounded-3.shadow-lg(src='../assets/img/vision_digital_twin_1769881201568.png', alt='Digital Twin')
+                    .col-lg-6
+                        .p-5(data-aos="fade-left")
+                            .section-heading
+                                h2 Uzoq muddatli maqsad: 
+                                    span Ma'lumotlarni monetizatsiya qilish
+                            p.lead Yo'l infratuzilmasining "Raqamli egizagi"ni yaratish.
+                            p Biz yo'llarni ta'mirlar ekanmiz, mintaqadagi eng batafsil yo'l qoplamasi ma'lumotlarini yig'moqdamiz.
+                            ul.list-unstyled.mt-4
+                                li.mb-2 
+                                    i.fas.fa-car.text-warning.me-2
+                                    strong AV Dasturchilari: 
+                                    | Avtopilotlarni o'qitish uchun ma'lumotlar.
+                                li.mb-2 
+                                    i.fas.fa-truck.text-warning.me-2
+                                    strong Logistika: 
+                                    | Yo'l holatiga asoslangan marshrutni optimallashtirish.
+                                li.mb-2 
+                                    i.fas.fa-shield-alt.text-warning.me-2
+                                    strong Sug'urta: 
+                                    | Bashoratli texnik xizmat ko'rsatish modellari.
+
+        // Team Section
+        section#team.py-5(style='background-color: rgba(255,255,255,0.02)')
+            .container.px-5.text-center
+                .section-heading.mb-5(data-aos="fade-up")
+                    h2 Jamoa
+                    p.text-muted Buyuk Britaniya akademik aniqligi va Sharqiy Yevropa tadqiqotlari uyg'unligi.
+                
+                .row.justify-content-center
+                    .col-lg-4
+                        .team-member.p-4(data-aos="flip-left")
+                            img.img-fluid.rounded-circle.mb-3(src='../assets/img/avazbek.jpg', alt='Avazbek Isroilov', style='width: 150px; height: 150px; object-fit: cover;')
+                            h4 Avazbek Isroilov
+                            h5.text-warning CEO
+                            p.small Warwick CS bitiruvchisi (UK), MLOps va GIS mutaxassisi.
+                            .mt-3
+                                a.btn.btn-outline-light.btn-social.mx-1(href='https://www.linkedin.com/in/avazbeki/')
+                                    i.fab.fa-linkedin-in
+                                div.small.mt-2.text-muted +998 99 490 83 10
+                    .col-lg-4
+                        .team-member.p-4(data-aos="flip-right" data-aos-delay="200")
+                            img.img-fluid.rounded-circle.mb-3(src='../assets/img/muhammad.jpg', alt='Muhammadrizo Maribjonov', style='width: 150px; height: 150px; object-fit: cover;')
+                            h4 Muhammadrizo Maribjonov
+                            h5.text-warning CTO
+                            p.small Innopolis Universiteti AI bitiruvchisi, Kompyuter ko'rish (CV) eksperti.
+
+        // Footer
+        footer#contact.py-5.bg-black
+            .container.px-5
+                .row
+                    .col-md-6.text-center.text-md-start
+                        p.m-0.text-white.small Copyright &copy; 2026 RoadHealth AI. Barcha huquqlar himoyalangan.
+                    .col-md-6.text-center.text-md-end
+                        // Social links removed per request
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='../js/scripts.js')
+        
+        // AOS Animation
+        script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
+        script.
+            AOS.init();
